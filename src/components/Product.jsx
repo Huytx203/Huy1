@@ -137,11 +137,6 @@ export default function Product() {
               <div>
                 <div className="flex gap-8 items-center flex-wrap">
                   <img
-                    src="/src/assets/icons/company1.png"
-                    alt=""
-                    className="cursor-pointer"
-                  />
-                  <img
                     src="/src/assets/icons/company2.png"
                     alt=""
                     className="cursor-pointer"
