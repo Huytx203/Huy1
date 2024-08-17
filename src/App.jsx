@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Newsletter from "./components/Newsletter";
 import Product from "./components/Product";
+import Contact from "./components/Contact";
 import Services from "./components/Services";
 import React from "react";
 import ReactDOM from "react-dom";
@@ -21,7 +22,8 @@ function App() {
 
       <Product />
       <Blog />
-      <Newsletter />
+
+      <Contact />
       <MyFooter />
     </>
   );

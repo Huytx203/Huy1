@@ -24,13 +24,22 @@ export default {
         lila: "#e6e5ec",
       },
       animation: {
-        "infinite-scroll": "infinite-scroll 5s linear infinite",
+        "infinite-scroll": "infinite-scroll 10s linear infinite",
+        gradient: "animateGradient 2s ease infinite alternate",
       },
       keyframes: {
         "infinite-scroll": {
           from: { transform: "translateX(0)" },
           to: { transform: "translateX(-100%)" },
         },
+        animateGradient: {
+          "0%": { backgroundPosition: "0% 50%" },
+          "50%": { backgroundPosition: "100% 50%" },
+          "100%": { backgroundPosition: "0% 50%" },
+        },
+      },
+      backgroundSize: {
+        "300%": "300%",
       },
     },
   },

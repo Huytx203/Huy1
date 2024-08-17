@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes gradient-x {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+.custom-gradient {
+  background: linear-gradient(
+    to right,
+    red, orange, yellow, green, blue, indigo, violet, red
+  );
+  background-size: 200% 100%;
+  animation: gradient-x 3s linear infinite;
+
+}
