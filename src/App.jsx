@@ -13,11 +13,13 @@ import ReactDOM from "react-dom";
 import Procedure from "./components/Procedure";
 import Evaluate from "./components/Evaluate";
 import Question from "./components/Question";
+import Contact2 from "./components/Contact2";
 
 
 function App() {
   return (
     <>
+      <Contact2 />  
       <Navbar />
       <Home />
       <About />

@@ -3,14 +3,14 @@ const Procedure = () => {
     <div className="bg-gray-50 text-gray-800">
 
       <main 
-          className="bg-[url('https://agency.danang.vn/wp-content/uploads/2021/03/form-bg.jpg')] bg-cover bg-center  w-full py-8 ">
+          className="px-8 md:px-4 bg-[url('https://agency.danang.vn/wp-content/uploads/2021/03/form-bg.jpg')] bg-cover bg-center  w-full py-8 ">
        <header className=" text-white py-8">
           <div className="container mx-auto text-center ">
             <h1 className="text-5xl font-bold ">Quy trình làm việc</h1>
             <p className="mt-2 text-lg ">Đảm bảo hiệu quả cho doanh nghiệp của bạn</p>
           </div>
         </header>
-        <div className="flex flex-col gap-8 ml-2">
+        <div className="flex flex-col gap-8 md:gap-2 ml-2">
           <div className="flex justify-center gap-6">
             <div className="bg-white shadow-md rounded-lg p-6 text-center w-64">
               <div className="text-blue-500 mb-4">
