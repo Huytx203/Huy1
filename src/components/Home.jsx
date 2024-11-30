@@ -1,10 +1,6 @@
 import React from "react";
 import { Carousel } from "flowbite-react";
 
-import banner from "../assets/banner.png";
-import banner2 from "../assets/banner2.png";
-import banner3 from "../assets/banner3.png";
-
 const Home = () => {
   return (
     <div className=" bg-neutralSilver" id="home">
@@ -12,7 +8,7 @@ const Home = () => {
         <Carousel className="w-full mx-auto">
           <div className="my-28 md:my-8 py-12 flex flex-col w-full mx-auto md:flex-row-reverse items-center justify-between gap-12">
             <div>
-              <img src={banner} alt="" />
+              <img src="/public/assets/banner.png" alt="" />
             </div>
             {/* hero text */}
             <div className="md:w-3/4">
@@ -29,7 +25,7 @@ const Home = () => {
 
               <a href="https://zalo.me/i-am-truongminhthien">
                 <button className="px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey">
-                  ZALO: 0942.105.593
+                  ZALO: 03637.39.222
                 </button>
               </a>
             </div>
@@ -37,7 +33,7 @@ const Home = () => {
 
           <div className="my-28 md:my-8 py-12 flex flex-col w-full mx-auto md:flex-row-reverse items-center justify-between gap-12">
             <div>
-              <img src={banner3} alt="" />
+              <img src="/public/assets/banner3.png" alt="" />
             </div>
             {/* hero text */}
             <div className="md:w-1/2">
@@ -53,7 +49,7 @@ const Home = () => {
               </p>
               <a href="https://zalo.me/i-am-truongminhthien">
                 <button className="px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGrey">
-                  ZALO: 0942.105.593
+                  ZALO: 03637.39.222
                 </button>
               </a>
             </div>

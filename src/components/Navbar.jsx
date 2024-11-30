@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import logo from "../assets/logo.png";
 import { motion } from "framer-motion";
 
 import { Link } from "react-scroll";
@@ -46,14 +45,16 @@ const Navbar = () => {
           isSticky
             ? "sticky top-0 right-0 left-0 border bg-white transition-all duration-300"
             : ""
-        }`}>
+        }`}
+      >
         <div className="flex justify-between items-center text-base gap-8">
           <a
             href="/portfolio"
-            className="text-2xl font-semibold flex items-center space-x-3">
+            className="text-2xl font-semibold flex items-center space-x-3"
+          >
             <img
               id="animated-image"
-              src={logo}
+              src="/public/assets/logo.png"
               alt=""
               className="w-10 inline-block items-center"
             />
@@ -70,7 +71,8 @@ const Navbar = () => {
                 offset={-100}
                 key={link}
                 href={path}
-                className="block text-base text-gray900 hover:text-brandPrimary first:font-medium">
+                className="block text-base text-gray900 hover:text-brandPrimary first:font-medium"
+              >
                 {link}
               </Link>
             ))}
@@ -88,7 +90,8 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className="text-gray900 focus:outline-none focus:text-gray-500">
+              className="text-gray900 focus:outline-none focus:text-gray-500"
+            >
               {isMenuOpen ? (
                 <FaXmark className="h-6 w-6 text-primary" />
               ) : (
@@ -101,7 +104,8 @@ const Navbar = () => {
         <div
           className={`space-y-4 px-4 mt-16 py-7 bg-brandPrimary ${
             isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"
-          }`}>
+          }`}
+        >
           {navItems.map(({ link, path }) => (
             <Link
               to={path}
@@ -110,7 +114,8 @@ const Navbar = () => {
               offset={-90}
               key={link}
               onClick={toggleMenu}
-              className="block  text-white hover:text-gray-500">
+              className="block  text-white hover:text-gray-500"
+            >
               {link}
             </Link>
           ))}

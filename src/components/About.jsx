@@ -1,6 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/about.png";
-import aboutImg2 from "../assets/mobile-login.png";
+
 import CountUp from "react-countup";
 
 // motion
@@ -238,7 +237,7 @@ const About = () => {
           <div className="md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12">
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img src="/src/assets/icons/group.png" alt="" />
+                <img src="/public/assets/icons/group.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
                     <CountUp
@@ -252,7 +251,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img src="/src/assets/icons/clubs.png" alt="" />
+                <img src="/public/assets/icons/clubs.png" alt="" />
                 <div id="number-counter">
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
                     <CountUp
@@ -277,7 +276,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img src="/src/assets/icons/payments.png" alt="" />
+                <img src="/public/assets/icons/payments.png" alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">
                     1,926,436

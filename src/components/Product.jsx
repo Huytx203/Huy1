@@ -1,6 +1,4 @@
 import React from "react";
-import aboutImg from "../assets/mobile-login.png";
-import Maecenas from "../assets/maecenas.png";
 import { useState } from "react";
 
 // motion
@@ -132,7 +130,7 @@ export default function Product() {
                   <div className="mb-4 size-16">
                     <img
                       className="mx-auto"
-                      src="/src/iconmxh/icongoogle.png"
+                      src="/img/iconmxh/icongoogle.png"
                       alt="Google Ads"
                     />
                   </div>
@@ -150,7 +148,7 @@ export default function Product() {
                   <div className="mb-4 size-16">
                     <img
                       className="mx-auto"
-                      src="/src/iconmxh/iconface.png"
+                      src="/img/iconmxh/iconface.png"
                       alt="Facebook Ads"
                     />
                   </div>
@@ -169,12 +167,12 @@ export default function Product() {
                   <div className="mb-4 size-16">
                     <img
                       className="mx-auto"
-                      src="/src/iconmxh/icontiktok.png"
+                      src="/img/iconmxh/icontiktok.png"
                       alt="Tiktok Ads"
                     />
                   </div>
                   <h2 className="text-xl font-bold text-gray-800 mb-2">
-                    Quảng Cáo Tiktok
+                    Quảng Cáo Tiktok 
                   </h2>
                   <p className="text-gray-600">
                     Ứng dụng tik tok theo thống kê riêng của Việt Nam đã có
@@ -188,7 +186,7 @@ export default function Product() {
                   <div className="mb-4 size-16">
                     <img
                       className="mx-auto"
-                      src="/src/iconmxh/iconzalo.png"
+                      src="/img/iconmxh/iconzalo.png"
                       alt="Zalo Ads"
                     />
                   </div>
@@ -207,7 +205,7 @@ export default function Product() {
                   <div className="mb-4 size-16">
                     <img
                       className="mx-auto"
-                      src="/src/iconmxh/iconmulti.png"
+                      src="/img/iconmxh/iconmulti.png"
                       alt="Multi-channel Ads"
                     />
                   </div>
